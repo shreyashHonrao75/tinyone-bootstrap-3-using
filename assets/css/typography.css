@@ -1,0 +1,64 @@
+.pri-heading{
+    color: var(--text-pri);
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0 0 2.5rem;
+}
+
+.sec-heading{
+      color: var(--text-sec);
+      font-size: 2rem;
+      font-weight: 400;
+      margin: 0 0 2.5rem;
+}
+
+.para{
+    color: var(--text-ter);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 0 4rem;
+}
+
+.footer .pri-heading{
+    color: var(--color-pri);
+}
+
+.footer .sec-heading{
+    color: var(--text-quat);
+    margin-bottom: 4.5rem;
+}
+
+.socialLinks li{
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+
+
+.socialLinks a{
+    display: inline-block;
+    color: var(--text-pri);
+    transition: all .2s linear;
+}
+
+.socialLinks a:is(:hover, :focus, :active){
+    transform: scale(1.2) translateY(-20px) rotate(-360deg) perspective(500px);
+}
+
+.socialLinks i{
+    font-size:4rem
+}
+
+.thumbHeading{
+    font-size: 2.2rem;
+    color: var(--text-pri);
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:0 0 1.5rem;
+}
+
+.thumbPara{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-quat);
+}
